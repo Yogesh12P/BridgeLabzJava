@@ -1,0 +1,13 @@
+package com.BridgeLabz.LoginForm.validate;
+
+import com.BridgeLabz.LoginForm.model.User;
+
+public class ValidateEntry 
+{
+	public boolean validateUser(User newUser)
+	{
+		boolean result = false;
+		
+		return result;
+	}
+}

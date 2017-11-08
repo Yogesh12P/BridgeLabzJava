@@ -1,0 +1,5 @@
+package com.BridgeLabz.LoginForm.model;
+
+public class User {
+
+}

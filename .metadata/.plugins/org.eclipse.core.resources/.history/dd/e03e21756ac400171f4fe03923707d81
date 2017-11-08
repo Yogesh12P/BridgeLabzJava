@@ -1,0 +1,52 @@
+package com.BridgeLabz.LoginForm.servlet;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.BridgeLabz.LoginForm.dao.RegistrationDao;
+import com.BridgeLabz.LoginForm.model.User;
+import com.BridgeLabz.LoginForm.validate.ValidateEntry;
+
+/**
+ * Servlet implementation class RegistrationServlet
+ */
+@WebServlet("/RegistrationServlet")
+public class RegistrationServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		RegistrationDao dao = new RegistrationDao();
+		ValidateEntry valid = new ValidateEntry();
+		User newUser = new User(request.getParameter("rFirst_name"), 
+				request.getParameter("rLast_name"),
+				request.getParameter("rEmail"),
+				request.getParameter("rPassword"),
+				request.getParameter("rMno"));
+		
+		
+		
+			
+			if(dao.registerNewUser(newUser))
+			{
+			System.out.println("Register succefully");
+			response.sendRedirect("login");
+			}else
+			{
+				System.out.println("Sorry..,Not user registered");
+				request.getRequestDispatcher("registration").forward(request, response);;
+			}
+			}
+			
+				request.getRequestDispatcher("registration").forward(request, response);
+			
+	
+
+}

@@ -1,0 +1,56 @@
+package com.BridgeLabz.LoginForm.filter;
+
+import java.io.IOException;
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebFilter;
+
+/**
+ * Servlet Filter implementation class LoginFilter
+ */
+@WebFilter("/LoginFilter")
+public class LoginFilter implements Filter {
+
+    /**
+     * Default constructor. 
+     */
+    public LoginFilter() {
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see Filter#destroy()
+	 */
+	public void destroy() {
+		// TODO Auto-generated method stub
+	}
+
+	/**
+	 * @see Filter#doFilter(ServletRequest, ServletResponse, FilterChain)
+	 */
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+		// TODO Auto-generated method stub
+		// place your code here
+
+		// pass the request along the filter chain
+		chain.doFilter(request, response);
+	}
+
+	 public boolean isValidEmailAddress(String email) {
+	        String ePattern = "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$";
+	        java.util.regex.Pattern p = java.util.regex.Pattern.compile(ePattern);
+	        java.util.regex.Matcher m = p.matcher(email);
+	        return m.matches();
+	    }
+	/**
+	 * @see Filter#init(FilterConfig)
+	 */
+	public void init(FilterConfig fConfig) throws ServletException {
+		// TODO Auto-generated method stub
+	}
+
+}

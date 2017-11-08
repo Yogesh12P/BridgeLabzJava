@@ -1,0 +1,20 @@
+package com.BridgeLabz.LoginForm.dao;
+
+import com.BridgeLabz.LoginForm.model.User;
+
+public class ValidateUserDao 
+{
+	
+	public boolean validUser(User user)
+	{
+		boolean result = false;
+		
+		try {
+			
+			
+		} catch (Exception e) {
+			System.out.println("Exception at Validate user "+e);
+		}
+		return result;
+	}
+}
