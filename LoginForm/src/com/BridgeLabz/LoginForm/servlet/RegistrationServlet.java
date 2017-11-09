@@ -1,6 +1,9 @@
 package com.BridgeLabz.LoginForm.servlet;
 
 import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -35,7 +38,9 @@ public class RegistrationServlet extends HttpServlet {
 		
 		String RegErro = validate.validateData(newUser);
 		HttpSession session = request.getSession();
-		
+		ServletContext ctx = request.getServletContext();
+		List<String> errorMsg = validate.validateInputData(newUser);
+		System.out.println("Registration error : "+errorMsg);
 		
 			if(RegErro != null)
 			{
@@ -47,7 +52,8 @@ public class RegistrationServlet extends HttpServlet {
 			{
 				session.setAttribute("Regerror", "");
 				System.out.println("No Error found");
-				if(dao.registerNewUser(newUser))
+				//dao.registerNewUser(newUser,ctx)
+				if(true)
 				{
 					System.out.println("Register succefully");
 					response.sendRedirect("login");

@@ -1,0 +1,48 @@
+package com.BridgeLabz.LoginForm.dao;
+
+import java.beans.PropertyVetoException;
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import com.mchange.v2.c3p0.ComboPooledDataSource;
+
+public class Dbutil {
+	
+	static ComboPooledDataSource ds = null;
+
+	private static void initDs() {
+		if (ds == null) {
+			ds = new ComboPooledDataSource();
+			try {
+				ds.setDriverClass("com.mysql.jdbc.Driver");
+				ds.setJdbcUrl("jdbc:mysql://localhost:3306/loginFormServlet");
+				ds.setUser("root");
+				ds.setPassword("root");
+				ds.setMinPoolSize(0);
+				ds.setAcquireIncrement(0);
+				ds.setMaxPoolSize(0);
+
+			} catch (PropertyVetoException e) {
+				
+				e.printStackTrace();
+			} 
+
+		}
+	
+	}
+	
+	public static Connection getConnectionDBUtil() throws SQLException {
+		System.out.println("inside connection");
+		initDs();
+		System.out.println("pooled connection established..!");
+		return ds.getConnection();
+	}
+
+	public static void closeConnection() 
+	{
+		ds.close();
+	}
+	
+	
+
+}

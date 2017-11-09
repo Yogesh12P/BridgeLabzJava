@@ -1,0 +1,14 @@
+package com.BridgeLabz.LoginForm.dao;
+
+import com.mchange.v2.c3p0.ComboPooledDataSource;
+
+public class Dbutil
+{
+
+	static ComboPooledDataSource ds = null;
+	
+	private static void initDs()
+	{
+		
+	}
+}

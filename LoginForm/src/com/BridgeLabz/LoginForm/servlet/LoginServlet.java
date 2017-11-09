@@ -1,6 +1,8 @@
 package com.BridgeLabz.LoginForm.servlet;
 
 import java.io.IOException;
+
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -23,13 +25,6 @@ public class LoginServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		
-		
-		String req1 = request.getParameter("submit");
-		String req2 = request.getParameter("registration");
-		
-		if(req1 != null)
-		{
 			//get validation
 			
 			ValidateUserDao dao = new ValidateUserDao();
@@ -38,9 +33,9 @@ public class LoginServlet extends HttpServlet {
 					request.getParameter("password"), null);
 			String userName = request.getParameter("username");
 			String password = request.getParameter("password");
+			ServletContext ctx = request.getServletContext();
 			
-			
-			if(dao.validUser(userName, password))
+			if(dao.validUser(userName, password,ctx))
 			{
 				System.out.println("User is valid");
 				
@@ -59,14 +54,7 @@ public class LoginServlet extends HttpServlet {
 				
 			}
 			
-			
-		}
-		else if(req2 != null)
-		{
-			//Go for registration
-			response.sendRedirect("registration");
-			
-		}
+				
 	}
 
 }

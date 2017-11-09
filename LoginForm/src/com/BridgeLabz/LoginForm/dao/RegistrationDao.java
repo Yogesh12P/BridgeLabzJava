@@ -1,24 +1,23 @@
 package com.BridgeLabz.LoginForm.dao;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+
+import javax.servlet.ServletContext;
 
 import com.BridgeLabz.LoginForm.model.User;
 
 public class RegistrationDao 
 {
 	
-	public boolean registerNewUser(User newUser)
+	public boolean registerNewUser(User newUser,ServletContext ctx )
 	{
 		boolean result = false;
 		
 		try {
 			
-			Class.forName("com.mysql.jdbc.Driver");
 			
-			String url = "jdbc:mysql://localhost:3306/loginFormServlet";
-			Connection connection = DriverManager.getConnection(url,"root","root");
+			Connection connection = (Connection) ctx.getAttribute("DBManager");
 			
 			String query = "insert into userInfo (firstName, lastName, email, password, mobileNo) values (?, ?, ?, ?, ?)"; 
 			

@@ -1,0 +1,14 @@
+package com.BridgeLabz.Dao;
+
+import java.sql.Connection;
+
+public class DBConnectionManager 
+{
+	private String dbURL;
+	private String user;
+	private String password;
+	private Connection con;
+	
+	
+
+}
