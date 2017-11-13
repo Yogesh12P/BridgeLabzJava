@@ -7,3 +7,6 @@ org.eclipse.jdt.core.compiler.compliance=1.8
 org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
 org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
 org.eclipse.jdt.core.compiler.source=1.8
+org.eclipse.jdt.core.userLibrary.Spring=<?xml version\="1.0" encoding\="UTF-8"?>\n<userlibrary systemlibrary\="false" version\="2">\n\t<archive path\="/home/bridgeit/Downloads/spring-context-3.0.5.RELEASE.jar"/>\n\t<archive path\="/LoginformUsingSpring/WebContent/WEB-INF/lib/spring-context-2.5.6.jar"/>\n</userlibrary>\n
+org.eclipse.jdt.core.userLibrary.SpringLib=<?xml version\="1.0" encoding\="UTF-8"?>\n<userlibrary systemlibrary\="false" version\="2">\n\t<archive path\="/home/bridgeit/Documents/lib/commons-logging-1.2.jar"/>\n\t<archive path\="/home/bridgeit/Documents/lib/mysql-connector-java-5.0.8.jar"/>\n\t<archive path\="/home/bridgeit/Documents/lib/servlet-api.jar"/>\n\t<archive path\="/home/bridgeit/Documents/lib/spring-2.5.6.jar"/>\n</userlibrary>\n
+org.eclipse.jdt.core.userLibrary.spring=<?xml version\="1.0" encoding\="UTF-8"?>\n<userlibrary systemlibrary\="false" version\="2">\n</userlibrary>\n

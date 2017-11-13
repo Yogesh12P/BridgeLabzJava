@@ -1,0 +1,10 @@
+package com.BridgeLabz.model;
+
+public class Employee
+{
+
+	int id;
+	String name;
+	
+	
+}

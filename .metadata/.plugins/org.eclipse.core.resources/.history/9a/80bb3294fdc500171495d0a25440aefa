@@ -1,0 +1,5 @@
+package com.BridgeLabz.Dao;
+
+public interface UserDaoInterface {
+
+}

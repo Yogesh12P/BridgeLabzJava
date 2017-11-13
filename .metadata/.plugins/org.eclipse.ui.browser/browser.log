@@ -217,3 +217,171 @@ Nov 09, 2017 19:50:54.48 [4905:4944:1109/195054.483574:ERROR:browser_gpu_channel
 Nov 09, 2017 19:50:54.51 Created new window in existing browser session.
 Nov 09, 2017 19:53:03.28 [5123:5162:1109/195303.276741:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
 Nov 09, 2017 19:53:03.35 Created new window in existing browser session.
+
+Nov 10, 2017 12:36:15.01 NEW SESSION
+Nov 10, 2017 12:36:15.01 [6268:6308:1110/123615.008937:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 12:36:15.14 Created new window in existing browser session.
+Nov 10, 2017 12:37:37.38 [6470:6509:1110/123737.383594:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 12:37:37.50 Created new window in existing browser session.
+Nov 10, 2017 13:03:11.83 [8240:8279:1110/130311.835535:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 13:03:11.91 Created new window in existing browser session.
+Nov 10, 2017 14:44:25.33 [9533:9572:1110/144425.330117:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 14:44:25.50 Created new window in existing browser session.
+Nov 10, 2017 15:00:35.06 [10010:10050:1110/150035.066722:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 15:00:35.11 Created new window in existing browser session.
+Nov 10, 2017 15:20:43.49 [11330:11369:1110/152043.491698:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 15:20:43.54 Created new window in existing browser session.
+Nov 10, 2017 15:21:13.86 [11424:11463:1110/152113.868455:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 15:21:13.91 Created new window in existing browser session.
+Nov 10, 2017 16:52:39.44 [14026:14066:1110/165239.446127:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 16:52:39.50 Created new window in existing browser session.
+Nov 10, 2017 17:02:15.71 [14470:14509:1110/170215.718782:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 17:02:15.79 Created new window in existing browser session.
+Nov 10, 2017 17:08:58.32 [14748:14787:1110/170858.325609:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 17:08:58.39 Created new window in existing browser session.
+Nov 10, 2017 17:12:53.85 [15024:15063:1110/171253.858496:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 17:12:53.93 Created new window in existing browser session.
+Nov 10, 2017 18:57:23.52 [16773:16812:1110/185723.520531:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 18:57:23.64 Created new window in existing browser session.
+Nov 10, 2017 18:58:39.14 [16869:16909:1110/185839.140531:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 18:58:39.18 Created new window in existing browser session.
+Nov 10, 2017 19:00:51.31 [16963:17003:1110/190051.316191:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 19:00:51.37 Created new window in existing browser session.
+Nov 10, 2017 19:02:51.33 [17186:17225:1110/190251.330616:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 19:02:51.40 Created new window in existing browser session.
+Nov 10, 2017 19:04:27.77 [17384:17423:1110/190427.777884:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 19:04:27.82 Created new window in existing browser session.
+Nov 10, 2017 19:06:07.33 [17592:17631:1110/190607.336543:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 19:06:07.38 Created new window in existing browser session.
+Nov 10, 2017 19:07:42.93 [17686:17726:1110/190742.934515:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 19:07:42.99 Created new window in existing browser session.
+Nov 10, 2017 19:10:16.53 [17977:18016:1110/191016.535609:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 19:10:16.61 Created new window in existing browser session.
+Nov 10, 2017 19:13:35.25 [18284:18323:1110/191335.250684:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 19:13:35.32 Created new window in existing browser session.
+Nov 10, 2017 19:18:29.41 [18523:18563:1110/191829.415750:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 19:18:29.48 Created new window in existing browser session.
+Nov 10, 2017 19:22:17.17 [18713:18753:1110/192217.174694:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 19:22:17.24 Created new window in existing browser session.
+Nov 10, 2017 19:23:43.55 [18896:18935:1110/192343.557982:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 19:23:43.60 Created new window in existing browser session.
+Nov 10, 2017 19:26:55.30 [19114:19153:1110/192655.307311:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 19:26:55.35 Created new window in existing browser session.
+Nov 10, 2017 19:28:16.99 [19322:19361:1110/192816.995677:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 19:28:17.06 Created new window in existing browser session.
+Nov 10, 2017 19:29:39.08 [19529:19569:1110/192939.083403:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 19:29:39.14 Created new window in existing browser session.
+Nov 10, 2017 19:31:07.21 [19733:19774:1110/193107.215559:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 19:31:07.24 Created new window in existing browser session.
+Nov 10, 2017 19:32:17.31 [19943:19982:1110/193217.311169:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+Nov 10, 2017 19:32:17.35 Created new window in existing browser session.
+Nov 10, 2017 19:36:52.64 1510322812649	addons.webextension.jid1-NIfFY2CA8fy1tg@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Nov 10, 2017 19:36:54.05 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: recipe-client-addon-run
+Nov 10, 2017 19:36:54.18 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/settings.js 21
+Nov 10, 2017 19:36:54.18 [[Exception stack
+Nov 10, 2017 19:36:54.18 Settings/this._init</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/settings.js:21:11
+Nov 10, 2017 19:36:54.18 Current stack
+Nov 10, 2017 19:36:54.18 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 10, 2017 19:36:54.18 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 10, 2017 19:36:54.18 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 10, 2017 19:36:54.18 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 10, 2017 19:36:54.18 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 10, 2017 19:36:54.18 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 10, 2017 19:36:54.18 ]]
+Nov 10, 2017 19:36:54.18 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js 95
+Nov 10, 2017 19:36:54.18 [[Exception stack
+Nov 10, 2017 19:36:54.18 checkUserId/userIDPromise</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js:95:13
+Nov 10, 2017 19:36:54.18 Current stack
+Nov 10, 2017 19:36:54.18 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 10, 2017 19:36:54.18 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 10, 2017 19:36:54.19 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 10, 2017 19:36:54.19 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 10, 2017 19:36:54.19 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 10, 2017 19:36:54.19 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 10, 2017 19:36:54.19 ]]
+Nov 10, 2017 19:36:54.19 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js 95
+Nov 10, 2017 19:36:54.19 [[Exception stack
+Nov 10, 2017 19:36:54.19 checkUserId/userIDPromise</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js:95:13
+Nov 10, 2017 19:36:54.19 Current stack
+Nov 10, 2017 19:36:54.19 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 10, 2017 19:36:54.19 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 10, 2017 19:36:54.19 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 10, 2017 19:36:54.19 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 10, 2017 19:36:54.19 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 10, 2017 19:36:54.19 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 10, 2017 19:36:54.19 ]]
+Nov 10, 2017 19:36:54.19 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 666
+Nov 10, 2017 19:36:54.19 [[Exception stack
+Nov 10, 2017 19:36:54.19 count_cache_init/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:666:1
+Nov 10, 2017 19:36:54.19 Current stack
+Nov 10, 2017 19:36:54.19 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 10, 2017 19:36:54.19 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 10, 2017 19:36:54.19 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 10, 2017 19:36:54.19 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 10, 2017 19:36:54.19 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 10, 2017 19:36:54.19 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 10, 2017 19:36:54.19 ]]
+Nov 10, 2017 19:36:54.20 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js 95
+Nov 10, 2017 19:36:54.20 [[Exception stack
+Nov 10, 2017 19:36:54.20 checkUserId/userIDPromise</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js:95:13
+Nov 10, 2017 19:36:54.20 Current stack
+Nov 10, 2017 19:36:54.20 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 10, 2017 19:36:54.20 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 10, 2017 19:36:54.20 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 10, 2017 19:36:54.20 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 10, 2017 19:36:54.20 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 10, 2017 19:36:54.20 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 10, 2017 19:36:54.20 ]]
+Nov 10, 2017 19:36:54.21 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 553
+Nov 10, 2017 19:36:54.21 [[Exception stack
+Nov 10, 2017 19:36:54.21 get_custom_filters_text/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:553:5
+Nov 10, 2017 19:36:54.21 Current stack
+Nov 10, 2017 19:36:54.21 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 10, 2017 19:36:54.21 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 10, 2017 19:36:54.21 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 10, 2017 19:36:54.21 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 10, 2017 19:36:54.21 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 10, 2017 19:36:54.21 ]]
+Nov 10, 2017 19:36:54.21 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/filtering/myfilters.js 562
+Nov 10, 2017 19:36:54.21 [[Exception stack
+Nov 10, 2017 19:36:54.21 MyFilters.prototype.checkFilterUpdates/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/filtering/myfilters.js:562:9
+Nov 10, 2017 19:36:54.21 Current stack
+Nov 10, 2017 19:36:54.21 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 10, 2017 19:36:54.21 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 10, 2017 19:36:54.21 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 10, 2017 19:36:54.21 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 10, 2017 19:36:54.21 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 10, 2017 19:36:54.21 ]]
+Nov 10, 2017 19:36:54.31 *** UTM:SVC TimerManager:registerTimer - id: telemetry_modules_ping
+Nov 10, 2017 19:36:54.31 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Nov 10, 2017 19:36:55.68 1510322815681	addons.webextension.jid1-NIfFY2CA8fy1tg@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Nov 10, 2017 19:36:56.75 Extension error: TypeError: getSettings(...) is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 818
+Nov 10, 2017 19:36:56.75 [[Exception stack
+Nov 10, 2017 19:36:56.75 getCurrentTabInfo/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:818:22
+Nov 10, 2017 19:36:56.75 Current stack
+Nov 10, 2017 19:36:56.75 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 10, 2017 19:36:56.75 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 10, 2017 19:36:56.75 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:349:48
+Nov 10, 2017 19:36:56.75 ]]
+Nov 10, 2017 19:36:56.76 Extension error: TypeError: getSettings(...) is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 818
+Nov 10, 2017 19:36:56.76 [[Exception stack
+Nov 10, 2017 19:36:56.76 getCurrentTabInfo/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:818:22
+Nov 10, 2017 19:36:56.76 Current stack
+Nov 10, 2017 19:36:56.76 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 10, 2017 19:36:56.76 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 10, 2017 19:36:56.76 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:349:48
+Nov 10, 2017 19:36:56.76 ]]
+Nov 10, 2017 19:36:59.92 console.log: init received
+Nov 10, 2017 19:41:29.82 1510323089820	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Nov 10, 2017 19:41:29.83 1510323089834	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Nov 10, 2017 19:41:29.88 1510323089884	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Nov 10, 2017 19:41:29.89 1510323089894	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Nov 10, 2017 19:41:29.97 1510323089971	addons.update-checker	WARN	Update manifest for clicktoplay-rollout@mozilla.org did not contain an updates property
+Nov 10, 2017 19:41:30.11 1510323090115	addons.update-checker	WARN	Update manifest for formautofill@mozilla.org did not contain an updates property
+Nov 10, 2017 19:41:30.12 1510323090126	addons.update-checker	WARN	Update manifest for onboarding@mozilla.org did not contain an updates property
+Nov 10, 2017 19:41:30.16 1510323090168	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Nov 10, 2017 19:41:30.17 1510323090179	addons.update-checker	WARN	Update manifest for activity-stream@mozilla.org did not contain an updates property
+Nov 10, 2017 19:41:30.40 1510323090403	addons.update-checker	WARN	Update manifest for followonsearch@mozilla.com did not contain an updates property
+Nov 10, 2017 19:41:30.41 1510323090413	addons.update-checker	WARN	Update manifest for taarexp@mozilla.com did not contain an updates property
+Nov 10, 2017 19:41:30.46 1510323090462	addons.update-checker	WARN	Update manifest for sbv4-gradual-rollout@mozilla.com did not contain an updates property
+Nov 10, 2017 19:41:33.28 console.log: Just installed jid1-NIfFY2CA8fy1tg@jetpack from other

@@ -1,0 +1,17 @@
+package com.BridgeLabz.springDIDemmo;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.expression.BeanFactoryAccessor;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.BridgeLabz.model.Employee;
+
+public class Test 
+{
+
+	public static void main(String[] args) {
+		System.out.println("Program fo DI of constructor:");
+		
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;springExampel1/src/com/BridgeLabz/Dao/JdbcUserDao.java&apos; to &apos;UserDaoImpl.java&apos;" description="Rename resource &apos;JdbcUserDao.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/BridgeLabz/Dao/JdbcUserDao.java" name="UserDaoImpl.java" stamp="1510547434040" updateReferences="true"/>
+</session>

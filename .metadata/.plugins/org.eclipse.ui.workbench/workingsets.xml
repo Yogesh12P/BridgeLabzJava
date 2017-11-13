@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<workingSet editPageId="org.eclipse.mylyn.tasks.ui.workingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1510287881983_1" label="servlet" name="servlet">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/demmo1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LoginForm" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.mylyn.tasks.ui.workingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1510288071502_2" label="ListnerFilter" name="ListnerFilter">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/listnerDemmo1" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.mylyn.tasks.ui.workingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1510391938522_5" label="spring" name="spring">
+<item elementID="=springExampel1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LoginformUsingSpring" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springDIDemmo" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1510054806952_0" label="Window Working Set" name="Aggregate for window 1510054806951"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1510388012109_4" label="Multiple Working Sets" name="Aggregate:ListnerFilter:servlet:">
+<workingSet IMemento.internal.id="ListnerFilter"/>
+<workingSet IMemento.internal.id="servlet"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1510391942498_6" label="Multiple Working Sets" name="Aggregate:ListnerFilter:servlet:spring:">
+<workingSet IMemento.internal.id="ListnerFilter"/>
+<workingSet IMemento.internal.id="servlet"/>
+<workingSet IMemento.internal.id="spring"/>
+</workingSet>
+<mruList name="servlet"/>
 </workingSetManager>

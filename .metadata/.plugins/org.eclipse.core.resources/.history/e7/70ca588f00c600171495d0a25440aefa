@@ -1,0 +1,40 @@
+package com.BridgeLabz.Dao;
+
+import java.sql.Connection;
+
+//import javax.activation.DataSource;
+import javax.sql.DataSource;
+
+import com.BridgeLabz.model.User;
+
+public class JdbcUserDao implements UserDaoInterface 
+{
+
+	private DataSource dataSource;
+	
+	public void setDataSource(DataSource dataSource) {
+		this.dataSource = dataSource;
+	}
+
+	@Override
+	public boolean registerUser(User user) {
+
+		boolean result = false;	
+		
+		String quiry = "Insert into User "+" (UserName, UserEmail, UserPassword) values (?, ?, ?)";
+		
+		Connection conn = null;
+		
+		try {
+			
+			conn = dataSource.get
+		} catch (Exception e) {
+			
+			System.out.println("Error at register new user..!"+e);
+		}
+		
+		return result;
+	}
+
+	
+}

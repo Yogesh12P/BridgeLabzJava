@@ -1,0 +1,9 @@
+package com.BridgeLabz.model;
+
+public class User 
+{
+
+	String fName;
+	String email;
+	String password;
+}

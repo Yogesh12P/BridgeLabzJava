@@ -1,0 +1,218 @@
+package com.BridgeLabz.Dao;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.BridgeLabz.model.User;
+import javax.sql.DataSource;
+
+public class UserDaoImpl implements UserDao
+{
+	private  DataSource datasource;
+
+	public  void setDatasource(DataSource datasource) {
+		this.datasource = datasource;
+	}
+
+	@Override
+	public boolean insertUser(User user) {
+
+			boolean result = false;
+			String sql = "INSERT INTO UserInfo "+" (NAME, EMAIL, PASSWORD, MOBILENO) VALUES (?,?,?,?)";
+			Connection conn = null;
+			try {
+				
+				conn = datasource.getConnection();
+				PreparedStatement ps = conn.prepareStatement(sql);
+				
+				ps.setString(1, user.getName());
+				ps.setString(2, user.getEmail());
+				ps.setString(3, user.getPassword());
+				ps.setDouble(4, user.getMobileNo());
+				int r = ps.executeUpdate();
+				System.out.println("Result : "+r);
+				result = true;
+			} catch (Exception e) {
+				
+				e.printStackTrace();
+			}finally 
+			{
+				
+				if (conn != null) {
+					try {
+					conn.close();
+					} catch (SQLException e) 
+					{
+						e.printStackTrace();
+					}
+				}
+			}
+			
+			
+		return result;
+	}
+
+
+
+	@Override
+	public List<User> showAllUsers() {
+
+			
+			List<User> data = new ArrayList<User>();
+			
+			
+			String sql = "SELECT * FROM UserInfo";
+			
+			Connection conn = null;
+			
+			try {
+
+				conn = datasource.getConnection();
+				Statement st = conn.createStatement();
+				PreparedStatement ps = conn.prepareStatement(sql);
+				ResultSet rs = ps.executeQuery();
+				int i = 0;
+				while(rs.next())
+				{
+					User user = new User();
+					user.setEmail(rs.getString("EMAIL"));
+					user.setName(rs.getString("NAME"));
+					user.setPassword(rs.getString("PASSWORD"));
+					user.setMobileNo((long) rs.getDouble("MOBILENO"));
+					user.setId(rs.getInt("idUserInfo"));
+					data.add(user);
+					System.out.println(user+" user added");
+					i++;
+				}
+				
+			} catch (Exception e) {
+				
+				e.printStackTrace();
+			}finally 
+			{
+				
+				if (conn != null) {
+					try {
+					conn.close();
+					} catch (SQLException e) 
+					{
+						e.printStackTrace();
+					}
+				}
+			}
+		return data;
+	}
+
+
+
+	@Override
+	public User findByUserId(int id) {
+
+		Connection  conn = null;
+		String sql = "SELECT * FROM UserInfo WHERE idUserInfo = ?";
+		User user = new User();
+		try {
+			
+			conn = datasource.getConnection();
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setInt(1, id);
+			ResultSet rs = ps.executeQuery();
+			if(rs.next())
+			{
+			
+				user.setName(rs.getString("NAME"));
+				user.setEmail(rs.getString("EMAIL"));
+				user.setMobileNo((long) rs.getDouble("MOBILENO"));
+				user.setId(rs.getInt("idUserInfo"));
+			}
+			rs.close();
+			ps.close();
+			
+		} catch (Exception e) {
+			
+			e.printStackTrace();
+		}
+		finally 
+		{
+			
+			if (conn != null) {
+				try {
+				conn.close();
+				} catch (SQLException e) 
+				{
+					e.printStackTrace();
+				}
+			}
+		}
+		return user;
+	}
+
+
+
+	@Override
+	public boolean deleteByName(int id) {
+
+		boolean result = false;
+		
+		Connection conn = null;
+		String sql = "DELETE FROM UserInfo WHERE idUserInfo = ?";
+		
+		try {
+			
+			conn = datasource.getConnection();
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setInt(1, id);
+			ps.execute();
+			result = true;
+		} 
+		catch (Exception e) 
+		{
+			result = false;
+			e.printStackTrace();
+		}
+		finally 
+		{
+			
+			if (conn != null) {
+				try {
+				conn.close();
+				} catch (SQLException e) 
+				{
+					e.printStackTrace();
+				}
+			}
+		}
+		
+		return result;
+	}
+
+	@Override
+	public boolean updateUser(int id, String name, String email) {
+
+		boolean result = false;
+		Connection conn = null;
+		String sql = "update UserInfo set NAME = ? and EMAIL = ? where idUserInfo = ? ";
+		
+		try {
+			
+			conn = datasource.getConnection();
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, name);
+			ps.setString(2, email);
+			ps.setInt(3, id);
+			ps.executeUpdate();
+			result = true;
+		} catch (Exception e) {
+
+			result = true;
+			e.printStackTrace();
+			
+		}
+		return result;
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.BridgeLabz.Dao;
+
+import com.BridgeLabz.model.User;
+
+public class JdbcUserDao implements UserDaoInterface 
+{
+
+	@Override
+	public boolean registerUser(User user) {
+
+		boolean result = false;	
+		
+		
+		return result;
+	}
+
+	
+}

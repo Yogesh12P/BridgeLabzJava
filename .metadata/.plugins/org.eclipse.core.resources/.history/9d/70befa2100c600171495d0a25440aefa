@@ -1,0 +1,29 @@
+package com.BridgeLabz.Dao;
+
+import javax.activation.DataSource;
+
+import com.BridgeLabz.model.User;
+
+public class JdbcUserDao implements UserDaoInterface 
+{
+
+	private DataSource dataSource;
+	
+	public void setDataSource(DataSource dataSource) {
+		this.dataSource = dataSource;
+	}
+
+	@Override
+	public boolean registerUser(User user) {
+
+		boolean result = false;	
+		
+		String quiry = "Insert into User "+" (UserName, UserEmail, UserPassword) values (?, ?, ?)";
+		
+		
+		
+		return result;
+	}
+
+	
+}

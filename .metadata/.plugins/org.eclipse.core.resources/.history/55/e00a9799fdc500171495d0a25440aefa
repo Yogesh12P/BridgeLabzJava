@@ -1,0 +1,8 @@
+package com.BridgeLabz.Dao;
+
+public interface UserDaoInterface 
+{
+
+		public boolean registerUser();
+		
+}

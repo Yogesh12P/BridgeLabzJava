@@ -1,0 +1,23 @@
+package com.BridgeLabz.model;
+
+public class Employee
+{
+
+	int id;
+	String name;
+	
+	public Employee()
+	{
+		System.out.println("Default constructor called");
+	}
+	
+	public Employee(String name)
+	{
+		this.name = name;
+	}
+	
+	public Employee(int id)
+	{
+		this.id = id;
+	}
+}

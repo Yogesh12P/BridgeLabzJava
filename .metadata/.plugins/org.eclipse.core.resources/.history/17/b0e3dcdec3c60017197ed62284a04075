@@ -1,0 +1,7 @@
+package com.BridgeLabz.Dao;
+
+public interface UserDao 
+{
+
+	public boolean insertUser();
+}

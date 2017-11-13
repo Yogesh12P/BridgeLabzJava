@@ -1,0 +1,30 @@
+package com.BridgeLabz.controller;
+
+import java.io.InputStream;
+import java.util.Scanner;
+
+public class RegisterUserController {
+
+	public static void main(String[] args) 
+	{
+		boolean check = true;
+		Scanner sc = new Scanner(System.in);
+		
+		while (check) 
+		{
+		
+			System.out.println("Register new user Menu");
+			System.out.println("1.Register New User");
+			System.out.println("2.Show All User");
+			System.out.println("3.show user by id");
+			System.out.println("4.Delete User");
+			
+			System.out.println("Enter your choise:");
+			int ch = sc.nextInt();
+			
+		
+		}
+		
+	}
+
+}
