@@ -13,6 +13,7 @@
 		<property name="password" value="root" />
 	</bean>
 	
+	 
 	<bean id="userDao" class="com.BridgeLabz.Dao.JdbcUserDao">
 		<property name="dataSource" ref="DataSource"></property>
 	</bean>

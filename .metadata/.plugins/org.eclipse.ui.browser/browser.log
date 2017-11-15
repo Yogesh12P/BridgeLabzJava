@@ -385,3 +385,422 @@ Nov 10, 2017 19:41:30.40 1510323090403	addons.update-checker	WARN	Update manifes
 Nov 10, 2017 19:41:30.41 1510323090413	addons.update-checker	WARN	Update manifest for taarexp@mozilla.com did not contain an updates property
 Nov 10, 2017 19:41:30.46 1510323090462	addons.update-checker	WARN	Update manifest for sbv4-gradual-rollout@mozilla.com did not contain an updates property
 Nov 10, 2017 19:41:33.28 console.log: Just installed jid1-NIfFY2CA8fy1tg@jetpack from other
+
+Nov 13, 2017 18:11:19.83 NEW SESSION
+Nov 13, 2017 18:11:19.83 1510576879838	addons.webextension.jid1-NIfFY2CA8fy1tg@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Nov 13, 2017 18:11:21.09 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: recipe-client-addon-run
+Nov 13, 2017 18:11:21.20 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/settings.js 21
+Nov 13, 2017 18:11:21.20 [[Exception stack
+Nov 13, 2017 18:11:21.20 Settings/this._init</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/settings.js:21:11
+Nov 13, 2017 18:11:21.20 Current stack
+Nov 13, 2017 18:11:21.20 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 13, 2017 18:11:21.20 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 13, 2017 18:11:21.20 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 13, 2017 18:11:21.20 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 13, 2017 18:11:21.20 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 13, 2017 18:11:21.20 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 13, 2017 18:11:21.20 ]]
+Nov 13, 2017 18:11:21.20 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js 95
+Nov 13, 2017 18:11:21.20 [[Exception stack
+Nov 13, 2017 18:11:21.20 checkUserId/userIDPromise</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js:95:13
+Nov 13, 2017 18:11:21.20 Current stack
+Nov 13, 2017 18:11:21.20 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 13, 2017 18:11:21.20 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 13, 2017 18:11:21.20 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 13, 2017 18:11:21.20 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 13, 2017 18:11:21.20 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 13, 2017 18:11:21.20 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 13, 2017 18:11:21.21 ]]
+Nov 13, 2017 18:11:21.21 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js 95
+Nov 13, 2017 18:11:21.21 [[Exception stack
+Nov 13, 2017 18:11:21.21 checkUserId/userIDPromise</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js:95:13
+Nov 13, 2017 18:11:21.21 Current stack
+Nov 13, 2017 18:11:21.21 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 13, 2017 18:11:21.21 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 13, 2017 18:11:21.21 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 13, 2017 18:11:21.21 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 13, 2017 18:11:21.21 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 13, 2017 18:11:21.21 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 13, 2017 18:11:21.21 ]]
+Nov 13, 2017 18:11:21.22 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 666
+Nov 13, 2017 18:11:21.22 [[Exception stack
+Nov 13, 2017 18:11:21.22 count_cache_init/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:666:1
+Nov 13, 2017 18:11:21.22 Current stack
+Nov 13, 2017 18:11:21.22 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 13, 2017 18:11:21.22 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 13, 2017 18:11:21.22 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 13, 2017 18:11:21.22 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 13, 2017 18:11:21.22 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 13, 2017 18:11:21.22 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 13, 2017 18:11:21.22 ]]
+Nov 13, 2017 18:11:21.23 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js 95
+Nov 13, 2017 18:11:21.23 [[Exception stack
+Nov 13, 2017 18:11:21.23 checkUserId/userIDPromise</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js:95:13
+Nov 13, 2017 18:11:21.23 Current stack
+Nov 13, 2017 18:11:21.23 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 13, 2017 18:11:21.23 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 13, 2017 18:11:21.23 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 13, 2017 18:11:21.23 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 13, 2017 18:11:21.23 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 13, 2017 18:11:21.23 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 13, 2017 18:11:21.23 ]]
+Nov 13, 2017 18:11:21.23 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 553
+Nov 13, 2017 18:11:21.23 [[Exception stack
+Nov 13, 2017 18:11:21.23 get_custom_filters_text/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:553:5
+Nov 13, 2017 18:11:21.23 Current stack
+Nov 13, 2017 18:11:21.23 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 13, 2017 18:11:21.23 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 13, 2017 18:11:21.23 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 13, 2017 18:11:21.23 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 13, 2017 18:11:21.23 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 13, 2017 18:11:21.23 ]]
+Nov 13, 2017 18:11:21.23 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/filtering/myfilters.js 562
+Nov 13, 2017 18:11:21.23 [[Exception stack
+Nov 13, 2017 18:11:21.23 MyFilters.prototype.checkFilterUpdates/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/filtering/myfilters.js:562:9
+Nov 13, 2017 18:11:21.23 Current stack
+Nov 13, 2017 18:11:21.23 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 13, 2017 18:11:21.23 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 13, 2017 18:11:21.23 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 13, 2017 18:11:21.23 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 13, 2017 18:11:21.23 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 13, 2017 18:11:21.23 ]]
+Nov 13, 2017 18:11:21.35 *** UTM:SVC TimerManager:registerTimer - id: telemetry_modules_ping
+Nov 13, 2017 18:11:21.35 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Nov 13, 2017 18:11:23.54 1510576883546	addons.webextension.jid1-NIfFY2CA8fy1tg@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Nov 13, 2017 18:11:30.74 console.log: init received
+Nov 13, 2017 18:11:40.83 console.log: Just installed jid1-NIfFY2CA8fy1tg@jetpack from other
+Nov 13, 2017 18:17:57.43 1510577277433	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Nov 13, 2017 18:17:57.47 1510577277462	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Nov 13, 2017 18:17:57.51 1510577277516	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Nov 13, 2017 18:17:57.67 1510577277676	addons.update-checker	WARN	Update manifest for clicktoplay-rollout@mozilla.org did not contain an updates property
+Nov 13, 2017 18:17:57.68 1510577277686	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Nov 13, 2017 18:17:57.73 1510577277735	addons.update-checker	WARN	Update manifest for formautofill@mozilla.org did not contain an updates property
+Nov 13, 2017 18:17:57.79 1510577277794	addons.update-checker	WARN	Update manifest for onboarding@mozilla.org did not contain an updates property
+Nov 13, 2017 18:17:57.88 1510577277880	addons.update-checker	WARN	Update manifest for activity-stream@mozilla.org did not contain an updates property
+Nov 13, 2017 18:17:57.97 1510577277971	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Nov 13, 2017 18:17:58.01 1510577278010	addons.update-checker	WARN	Update manifest for taarexp@mozilla.com did not contain an updates property
+Nov 13, 2017 18:17:58.07 1510577278071	addons.update-checker	WARN	Update manifest for sbv4-gradual-rollout@mozilla.com did not contain an updates property
+Nov 13, 2017 18:17:58.21 1510577278217	addons.update-checker	WARN	Update manifest for followonsearch@mozilla.com did not contain an updates property
+Nov 13, 2017 18:17:58.26 1510577278266	addons.update-checker	WARN	Update manifest for timecop@mozilla.com did not contain an updates property
+Nov 13, 2017 18:18:00.64 1510577280643	addons.xpi	ERROR	Failed to clean updated system add-ons directories.
+Nov 13, 2017 22:17:04.56 console.log: shutdown APP_SHUTDOWN
+Nov 13, 2017 22:17:04.75 Promise rejected after context unloaded: Message manager disconnected
+
+Nov 14, 2017 10:50:29.62 NEW SESSION
+Nov 14, 2017 10:50:29.62 1510636829621	addons.webextension.jid1-NIfFY2CA8fy1tg@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Nov 14, 2017 10:50:31.29 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: recipe-client-addon-run
+Nov 14, 2017 10:50:31.37 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/settings.js 21
+Nov 14, 2017 10:50:31.37 [[Exception stack
+Nov 14, 2017 10:50:31.38 Settings/this._init</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/settings.js:21:11
+Nov 14, 2017 10:50:31.38 Current stack
+Nov 14, 2017 10:50:31.38 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 10:50:31.38 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 10:50:31.38 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 14, 2017 10:50:31.38 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 14, 2017 10:50:31.38 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 14, 2017 10:50:31.38 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 14, 2017 10:50:31.38 ]]
+Nov 14, 2017 10:50:31.38 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js 95
+Nov 14, 2017 10:50:31.38 [[Exception stack
+Nov 14, 2017 10:50:31.38 checkUserId/userIDPromise</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js:95:13
+Nov 14, 2017 10:50:31.38 Current stack
+Nov 14, 2017 10:50:31.38 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 10:50:31.38 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 10:50:31.38 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 14, 2017 10:50:31.38 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 14, 2017 10:50:31.38 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 14, 2017 10:50:31.38 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 14, 2017 10:50:31.38 ]]
+Nov 14, 2017 10:50:31.38 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js 95
+Nov 14, 2017 10:50:31.38 [[Exception stack
+Nov 14, 2017 10:50:31.38 checkUserId/userIDPromise</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js:95:13
+Nov 14, 2017 10:50:31.38 Current stack
+Nov 14, 2017 10:50:31.38 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 10:50:31.38 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 10:50:31.38 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 14, 2017 10:50:31.38 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 14, 2017 10:50:31.38 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 14, 2017 10:50:31.38 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 14, 2017 10:50:31.38 ]]
+Nov 14, 2017 10:50:31.38 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 666
+Nov 14, 2017 10:50:31.38 [[Exception stack
+Nov 14, 2017 10:50:31.38 count_cache_init/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:666:1
+Nov 14, 2017 10:50:31.38 Current stack
+Nov 14, 2017 10:50:31.38 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 10:50:31.38 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 10:50:31.38 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 14, 2017 10:50:31.38 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 14, 2017 10:50:31.38 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 14, 2017 10:50:31.38 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 14, 2017 10:50:31.38 ]]
+Nov 14, 2017 10:50:31.41 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js 95
+Nov 14, 2017 10:50:31.41 [[Exception stack
+Nov 14, 2017 10:50:31.41 checkUserId/userIDPromise</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js:95:13
+Nov 14, 2017 10:50:31.41 Current stack
+Nov 14, 2017 10:50:31.41 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 10:50:31.41 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 10:50:31.41 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 14, 2017 10:50:31.41 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 14, 2017 10:50:31.41 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 14, 2017 10:50:31.41 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 14, 2017 10:50:31.41 ]]
+Nov 14, 2017 10:50:31.42 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 553
+Nov 14, 2017 10:50:31.42 [[Exception stack
+Nov 14, 2017 10:50:31.42 get_custom_filters_text/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:553:5
+Nov 14, 2017 10:50:31.42 Current stack
+Nov 14, 2017 10:50:31.42 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 10:50:31.42 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 10:50:31.42 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 14, 2017 10:50:31.42 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 14, 2017 10:50:31.42 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 14, 2017 10:50:31.42 ]]
+Nov 14, 2017 10:50:31.42 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/filtering/myfilters.js 562
+Nov 14, 2017 10:50:31.42 [[Exception stack
+Nov 14, 2017 10:50:31.42 MyFilters.prototype.checkFilterUpdates/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/filtering/myfilters.js:562:9
+Nov 14, 2017 10:50:31.42 Current stack
+Nov 14, 2017 10:50:31.42 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 10:50:31.42 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 10:50:31.42 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 14, 2017 10:50:31.42 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 14, 2017 10:50:31.42 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 14, 2017 10:50:31.42 ]]
+Nov 14, 2017 10:50:31.53 *** UTM:SVC TimerManager:registerTimer - id: telemetry_modules_ping
+Nov 14, 2017 10:50:31.53 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Nov 14, 2017 10:50:32.68 1510636832681	addons.webextension.jid1-NIfFY2CA8fy1tg@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Nov 14, 2017 10:50:33.79 Extension error: TypeError: getSettings(...) is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 818
+Nov 14, 2017 10:50:33.79 [[Exception stack
+Nov 14, 2017 10:50:33.79 getCurrentTabInfo/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:818:22
+Nov 14, 2017 10:50:33.79 Current stack
+Nov 14, 2017 10:50:33.79 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 10:50:33.79 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 10:50:33.79 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:349:48
+Nov 14, 2017 10:50:33.79 ]]
+Nov 14, 2017 10:50:37.56 console.log: init received
+Nov 14, 2017 18:17:57.61 1510663677614	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Nov 14, 2017 18:17:57.74 1510663677741	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Nov 14, 2017 18:17:57.79 1510663677793	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Nov 14, 2017 18:17:57.80 1510663677803	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Nov 14, 2017 18:17:57.87 1510663677870	addons.update-checker	WARN	Update manifest for clicktoplay-rollout@mozilla.org did not contain an updates property
+Nov 14, 2017 18:17:57.90 1510663677900	addons.update-checker	WARN	Update manifest for formautofill@mozilla.org did not contain an updates property
+Nov 14, 2017 18:17:57.97 1510663677969	addons.update-checker	WARN	Update manifest for onboarding@mozilla.org did not contain an updates property
+Nov 14, 2017 18:17:58.01 1510663678017	addons.update-checker	WARN	Update manifest for activity-stream@mozilla.org did not contain an updates property
+Nov 14, 2017 18:17:58.06 1510663678067	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Nov 14, 2017 18:17:58.17 1510663678178	addons.update-checker	WARN	Update manifest for taarexp@mozilla.com did not contain an updates property
+Nov 14, 2017 18:17:58.24 1510663678245	addons.update-checker	WARN	Update manifest for sbv4-gradual-rollout@mozilla.com did not contain an updates property
+Nov 14, 2017 18:17:58.34 1510663678341	addons.update-checker	WARN	Update manifest for followonsearch@mozilla.com did not contain an updates property
+Nov 14, 2017 18:17:58.39 1510663678395	addons.update-checker	WARN	Update manifest for timecop@mozilla.com did not contain an updates property
+Nov 14, 2017 18:17:59.03 1510663679037	addons.xpi	ERROR	Failed to clean updated system add-ons directories.
+Nov 14, 2017 18:42:46.03 console.log: shutdown APP_SHUTDOWN
+Nov 14, 2017 18:42:46.15 Promise rejected after context unloaded: Message manager disconnected
+Nov 14, 2017 18:43:07.88 1510665187885	addons.webextension.jid1-NIfFY2CA8fy1tg@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Nov 14, 2017 18:43:08.66 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: recipe-client-addon-run
+Nov 14, 2017 18:43:08.72 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/settings.js 21
+Nov 14, 2017 18:43:08.72 [[Exception stack
+Nov 14, 2017 18:43:08.72 Settings/this._init</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/settings.js:21:11
+Nov 14, 2017 18:43:08.72 Current stack
+Nov 14, 2017 18:43:08.72 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 18:43:08.72 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 18:43:08.72 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 14, 2017 18:43:08.72 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 14, 2017 18:43:08.72 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 14, 2017 18:43:08.72 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 14, 2017 18:43:08.72 ]]
+Nov 14, 2017 18:43:08.72 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js 95
+Nov 14, 2017 18:43:08.72 [[Exception stack
+Nov 14, 2017 18:43:08.72 checkUserId/userIDPromise</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js:95:13
+Nov 14, 2017 18:43:08.72 Current stack
+Nov 14, 2017 18:43:08.72 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 18:43:08.72 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 18:43:08.72 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 14, 2017 18:43:08.72 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 14, 2017 18:43:08.72 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 14, 2017 18:43:08.72 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 14, 2017 18:43:08.72 ]]
+Nov 14, 2017 18:43:08.72 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js 95
+Nov 14, 2017 18:43:08.72 [[Exception stack
+Nov 14, 2017 18:43:08.72 checkUserId/userIDPromise</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js:95:13
+Nov 14, 2017 18:43:08.72 Current stack
+Nov 14, 2017 18:43:08.72 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 18:43:08.72 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 18:43:08.72 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 14, 2017 18:43:08.72 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 14, 2017 18:43:08.72 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 14, 2017 18:43:08.72 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 14, 2017 18:43:08.72 ]]
+Nov 14, 2017 18:43:08.72 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 666
+Nov 14, 2017 18:43:08.72 [[Exception stack
+Nov 14, 2017 18:43:08.72 count_cache_init/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:666:1
+Nov 14, 2017 18:43:08.72 Current stack
+Nov 14, 2017 18:43:08.72 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 18:43:08.72 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 18:43:08.72 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 14, 2017 18:43:08.72 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 14, 2017 18:43:08.72 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 14, 2017 18:43:08.72 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 14, 2017 18:43:08.72 ]]
+Nov 14, 2017 18:43:08.73 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js 95
+Nov 14, 2017 18:43:08.73 [[Exception stack
+Nov 14, 2017 18:43:08.73 checkUserId/userIDPromise</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js:95:13
+Nov 14, 2017 18:43:08.73 Current stack
+Nov 14, 2017 18:43:08.73 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 18:43:08.73 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 18:43:08.73 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 14, 2017 18:43:08.73 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 14, 2017 18:43:08.73 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 14, 2017 18:43:08.73 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 14, 2017 18:43:08.73 ]]
+Nov 14, 2017 18:43:08.74 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 553
+Nov 14, 2017 18:43:08.74 [[Exception stack
+Nov 14, 2017 18:43:08.74 get_custom_filters_text/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:553:5
+Nov 14, 2017 18:43:08.74 Current stack
+Nov 14, 2017 18:43:08.74 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 18:43:08.74 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 18:43:08.74 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 14, 2017 18:43:08.74 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 14, 2017 18:43:08.74 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 14, 2017 18:43:08.74 ]]
+Nov 14, 2017 18:43:08.74 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/filtering/myfilters.js 562
+Nov 14, 2017 18:43:08.74 [[Exception stack
+Nov 14, 2017 18:43:08.74 MyFilters.prototype.checkFilterUpdates/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/filtering/myfilters.js:562:9
+Nov 14, 2017 18:43:08.74 Current stack
+Nov 14, 2017 18:43:08.74 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 18:43:08.74 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 18:43:08.74 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 14, 2017 18:43:08.74 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 14, 2017 18:43:08.74 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 14, 2017 18:43:08.74 ]]
+Nov 14, 2017 18:43:08.80 *** UTM:SVC TimerManager:registerTimer - id: telemetry_modules_ping
+Nov 14, 2017 18:43:08.80 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Nov 14, 2017 18:43:09.65 1510665189656	addons.webextension.jid1-NIfFY2CA8fy1tg@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Nov 14, 2017 18:43:10.17 Extension error: TypeError: getSettings(...) is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 818
+Nov 14, 2017 18:43:10.17 [[Exception stack
+Nov 14, 2017 18:43:10.17 getCurrentTabInfo/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:818:22
+Nov 14, 2017 18:43:10.17 Current stack
+Nov 14, 2017 18:43:10.17 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 18:43:10.17 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 18:43:10.17 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:349:48
+Nov 14, 2017 18:43:10.17 ]]
+Nov 14, 2017 18:43:10.54 Extension error: TypeError: getSettings(...) is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 818
+Nov 14, 2017 18:43:10.54 [[Exception stack
+Nov 14, 2017 18:43:10.54 getCurrentTabInfo/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:818:22
+Nov 14, 2017 18:43:10.54 Current stack
+Nov 14, 2017 18:43:10.54 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 18:43:10.54 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 18:43:10.54 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:349:48
+Nov 14, 2017 18:43:10.54 ]]
+Nov 14, 2017 18:43:10.54 Extension error: TypeError: getSettings(...) is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 818
+Nov 14, 2017 18:43:10.54 [[Exception stack
+Nov 14, 2017 18:43:10.54 getCurrentTabInfo/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:818:22
+Nov 14, 2017 18:43:10.54 Current stack
+Nov 14, 2017 18:43:10.54 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 14, 2017 18:43:10.54 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 14, 2017 18:43:10.54 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:349:48
+Nov 14, 2017 18:43:10.54 ]]
+Nov 14, 2017 18:43:13.27 console.log: init received
+
+Nov 15, 2017 10:41:44.21 NEW SESSION
+Nov 15, 2017 10:41:44.21 1510722704211	addons.webextension.jid1-NIfFY2CA8fy1tg@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Nov 15, 2017 10:41:45.45 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: recipe-client-addon-run
+Nov 15, 2017 10:41:45.58 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/settings.js 21
+Nov 15, 2017 10:41:45.58 [[Exception stack
+Nov 15, 2017 10:41:45.58 Settings/this._init</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/settings.js:21:11
+Nov 15, 2017 10:41:45.58 Current stack
+Nov 15, 2017 10:41:45.58 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 15, 2017 10:41:45.58 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 15, 2017 10:41:45.58 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 15, 2017 10:41:45.58 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 15, 2017 10:41:45.58 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 15, 2017 10:41:45.58 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 15, 2017 10:41:45.58 ]]
+Nov 15, 2017 10:41:45.58 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js 95
+Nov 15, 2017 10:41:45.58 [[Exception stack
+Nov 15, 2017 10:41:45.58 checkUserId/userIDPromise</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js:95:13
+Nov 15, 2017 10:41:45.58 Current stack
+Nov 15, 2017 10:41:45.58 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 15, 2017 10:41:45.58 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 15, 2017 10:41:45.58 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 15, 2017 10:41:45.58 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 15, 2017 10:41:45.58 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 15, 2017 10:41:45.58 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 15, 2017 10:41:45.58 ]]
+Nov 15, 2017 10:41:45.58 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js 95
+Nov 15, 2017 10:41:45.58 [[Exception stack
+Nov 15, 2017 10:41:45.58 checkUserId/userIDPromise</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js:95:13
+Nov 15, 2017 10:41:45.58 Current stack
+Nov 15, 2017 10:41:45.58 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 15, 2017 10:41:45.58 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 15, 2017 10:41:45.58 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 15, 2017 10:41:45.58 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 15, 2017 10:41:45.58 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 15, 2017 10:41:45.58 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 15, 2017 10:41:45.58 ]]
+Nov 15, 2017 10:41:45.58 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 666
+Nov 15, 2017 10:41:45.58 [[Exception stack
+Nov 15, 2017 10:41:45.58 count_cache_init/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:666:1
+Nov 15, 2017 10:41:45.58 Current stack
+Nov 15, 2017 10:41:45.58 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 15, 2017 10:41:45.58 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 15, 2017 10:41:45.58 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 15, 2017 10:41:45.58 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 15, 2017 10:41:45.58 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 15, 2017 10:41:45.58 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 15, 2017 10:41:45.58 ]]
+Nov 15, 2017 10:41:45.60 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js 95
+Nov 15, 2017 10:41:45.60 [[Exception stack
+Nov 15, 2017 10:41:45.60 checkUserId/userIDPromise</<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/stats.js:95:13
+Nov 15, 2017 10:41:45.60 Current stack
+Nov 15, 2017 10:41:45.60 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 15, 2017 10:41:45.60 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 15, 2017 10:41:45.60 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 15, 2017 10:41:45.60 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 15, 2017 10:41:45.60 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 15, 2017 10:41:45.60 observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+Nov 15, 2017 10:41:45.60 ]]
+Nov 15, 2017 10:41:45.60 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 553
+Nov 15, 2017 10:41:45.60 [[Exception stack
+Nov 15, 2017 10:41:45.60 get_custom_filters_text/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:553:5
+Nov 15, 2017 10:41:45.60 Current stack
+Nov 15, 2017 10:41:45.60 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 15, 2017 10:41:45.60 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 15, 2017 10:41:45.60 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 15, 2017 10:41:45.60 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 15, 2017 10:41:45.60 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 15, 2017 10:41:45.60 ]]
+Nov 15, 2017 10:41:45.60 Extension error: TypeError: response is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/filtering/myfilters.js 562
+Nov 15, 2017 10:41:45.60 [[Exception stack
+Nov 15, 2017 10:41:45.60 MyFilters.prototype.checkFilterUpdates/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/filtering/myfilters.js:562:9
+Nov 15, 2017 10:41:45.60 Current stack
+Nov 15, 2017 10:41:45.60 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 15, 2017 10:41:45.60 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 15, 2017 10:41:45.61 wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:363:15
+Nov 15, 2017 10:41:45.61 withLastError@resource://gre/modules/ExtensionCommon.jsm:301:14
+Nov 15, 2017 10:41:45.61 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:357:11
+Nov 15, 2017 10:41:45.61 ]]
+Nov 15, 2017 10:41:45.68 *** UTM:SVC TimerManager:registerTimer - id: telemetry_modules_ping
+Nov 15, 2017 10:41:45.68 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Nov 15, 2017 10:41:47.02 1510722707026	addons.webextension.jid1-NIfFY2CA8fy1tg@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Nov 15, 2017 10:41:47.80 Extension error: TypeError: getSettings(...) is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 818
+Nov 15, 2017 10:41:47.80 [[Exception stack
+Nov 15, 2017 10:41:47.80 getCurrentTabInfo/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:818:22
+Nov 15, 2017 10:41:47.80 Current stack
+Nov 15, 2017 10:41:47.80 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 15, 2017 10:41:47.80 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 15, 2017 10:41:47.80 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:349:48
+Nov 15, 2017 10:41:47.80 ]]
+Nov 15, 2017 10:41:48.56 Extension error: TypeError: getSettings(...) is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 818
+Nov 15, 2017 10:41:48.56 [[Exception stack
+Nov 15, 2017 10:41:48.56 getCurrentTabInfo/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:818:22
+Nov 15, 2017 10:41:48.56 Current stack
+Nov 15, 2017 10:41:48.56 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 15, 2017 10:41:48.56 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 15, 2017 10:41:48.56 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:349:48
+Nov 15, 2017 10:41:48.56 ]]
+Nov 15, 2017 10:41:48.65 Extension error: TypeError: getSettings(...) is undefined moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js 818
+Nov 15, 2017 10:41:48.65 [[Exception stack
+Nov 15, 2017 10:41:48.65 getCurrentTabInfo/<@moz-extension://3d879513-6236-42f6-bea2-c559ae532ce5/background.js:818:22
+Nov 15, 2017 10:41:48.65 Current stack
+Nov 15, 2017 10:41:48.65 runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+Nov 15, 2017 10:41:48.65 runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+Nov 15, 2017 10:41:48.65 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:349:48
+Nov 15, 2017 10:41:48.65 ]]
+Nov 15, 2017 10:41:51.49 console.log: init received

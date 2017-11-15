@@ -1,0 +1,40 @@
+package com.BridgeLabz.validator;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.Errors;
+import org.springframework.validation.ValidationUtils;
+import org.springframework.validation.Validator;
+
+import com.BridgeLabz.Service.UserService;
+import com.BridgeLabz.model.User;
+
+public class UserValidator implements Validator
+{
+	@Autowired
+	private UserService services;
+	
+	public boolean supports(Class<?> arg0) {
+		return false;
+	}
+
+	public void validate(Object o, Errors errors) {
+		User user = (User) o;
+		
+		//ValidationUtils.rejectIfEmpty(errors, "name", "NotEmpty");
+		ValidationUtils.rejectIfEmpty(errors, "email", "NotEmpty");
+		//ValidationUtils.rejectIfEmptyOrWhitespace(errors, "password", "NotEmpty");
+		 
+		if (user.getName().length() < 1 || user.getName().length() > 32) {
+            errors.rejectValue("name", "Size.userForm.name");
+        }
+		if (services.findByUser(user.getEmail())) {
+			errors.rejectValue("name", "Duplicate.userForm.name");
+        }
+		
+	    if (user.getPassword().length() < 8 || user.getPassword().length() > 32) {
+	        	errors.rejectValue("password", "Size.userForm.password");
+	    }
+	        
+	}
+
+}

@@ -1,0 +1,14 @@
+<html>
+<body>
+<h2>Hello Please Login here..!</h2>
+	<form action="login">
+		EMAIL:<input type="text" name="email" id="email">
+		PASSWORD:<input type="text" name="password" id="password">
+		 ${error}
+		<input type="submit">
+	</form>
+	
+	<form:form id="loginForm" modelAttribute="login" action="loginProcess" method="post">
+	</form:form>
+</body>
+</html>

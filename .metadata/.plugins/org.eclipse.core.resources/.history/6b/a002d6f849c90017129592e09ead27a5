@@ -1,0 +1,26 @@
+package com.BridgeLabz.validator;
+
+import org.springframework.validation.Errors;
+import org.springframework.validation.ValidationUtils;
+import org.springframework.validation.Validator;
+
+import com.BridgeLabz.model.User;
+
+public class UserValidator implements Validator
+{
+
+	
+	public boolean supports(Class<?> arg0) {
+		return false;
+	}
+
+	public void validate(Object o, Errors errors) {
+		User user = (User) o;
+		
+		ValidationUtils.rejectIfEmpty(errors, "username", "NotEmpty");
+		if (user.getUsername().length() < 6 || user.getUsername().length() > 32) {
+            errors.rejectValue("username", "Size.userForm.username");
+        }
+	}
+
+}

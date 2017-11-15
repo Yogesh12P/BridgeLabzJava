@@ -1,0 +1,44 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>Wellcome Register here..!!</h3>
+	<form action="newRegister" modelAttribute="user">
+			<table align="center">
+			<tr>
+	 			<th>Name</th>
+	 			<td><form:input type="text" name="name" id="name"></td>
+	 			<td><font color="red"><form:error path="name" /></font></td>
+	 		</tr>
+	 		<tr>
+	 			<td style="font-style: italic; color: red;">${nameerror}</td>
+	 		</tr>
+	 		<tr>
+	 			<th>Email</th>
+	 			<td><input type="text" name="email" id="email"></td>
+	 		</tr>
+	 		<tr>
+	 			<td style="font-style: italic; color: red;">${emailerror}</td>
+	 		</tr>
+	 		<tr>
+	 			<th>Password</th>
+	 			<td><input type="text" name="password" id="password"></td>
+	 		</tr>
+	 		<tr>
+	 			<td style="font-style: italic; color: red;">${passworderror}</td>
+	 		</tr>
+	 		<tr>
+	 			<td style="font-style: italic; color: red;">${reerror}</td>
+	 		</tr>
+	 		<tr>
+	 			<td><input type="submit"></td>
+	 		</tr>
+	 	</table>
+	</form>
+</body>
+</html>

@@ -6,7 +6,7 @@
 		<section name="DialogBoundsSettings">
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="528" key="DIALOG_HEIGHT"/>
 			<item value="349" key="DIALOG_X_ORIGIN"/>
 			<item value="39" key="DIALOG_Y_ORIGIN"/>
 		</section>

@@ -1,0 +1,12 @@
+package com.BridgeLabz.Controller;
+
+import org.springframework.web.servlet.ModelAndView;
+
+public class WelcomeLogin 
+{
+
+	public ModelAndView goforLogin()
+	{
+		
+	}
+}

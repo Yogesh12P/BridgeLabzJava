@@ -1,0 +1,10 @@
+package com.BridgeLabz.Controller;
+
+public class LoginController 
+{
+	public void validUser()
+	{
+		System.out.println("login controller called..!");
+		
+	}
+}

@@ -1,0 +1,61 @@
+package com.BridgeLabz.Dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import com.BridgeLabz.model.User;
+
+public class UserImplDao  implements UserDao
+{
+	
+
+	public boolean newRegistration(User user) {
+
+		boolean result = false;
+		
+		
+		String sql = "Insert into User "+" (UserName, UserEmail, UserPassword) values (?, ?, ?)";
+		
+		try {
+
+			System.out.println("Check for new registration..!!");
+			Class.forName("com.mysql.jdbc.Driver");  
+			Connection  conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/LoginFormUsingSpring","root","root");
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, user.getName());
+			ps.setString(2, user.getEmail());
+			ps.setString(3, user.getPassword());
+			ps.executeUpdate();
+			ps.close();
+			result = true;
+		} catch (Exception e) {
+			e.printStackTrace();
+			result = false;
+		}
+		
+		
+		return result;
+	}
+
+	public User validUser(String userName, String password) {
+
+		User user = null;
+		
+		String sql = "select * from User where UserEmail='" +userName + "' and UserPassword='"+password+"'";
+		
+		try {
+
+			Class.forName("com.mysql.jdbc.Driver");  
+			Connection  conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/LoginFormUsingSpring","root","root");
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1,userName);
+			ps.setString(2,password);
+			Resultset rs = ps.executeQuery()
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	
+}

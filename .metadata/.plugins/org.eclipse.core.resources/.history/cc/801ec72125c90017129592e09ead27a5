@@ -1,0 +1,44 @@
+package com.BridgeLabz.Dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.BridgeLabz.model.User;
+
+public class UserImplDao  implements UserDao
+{
+	
+
+	public boolean newRegistration(User user) {
+
+		boolean result = false;
+		
+		Connection conn = null;
+		String sql = "Insert into User "+" (UserName, UserEmail, UserPassword) values (?, ?, ?)";
+		
+		try {
+
+			System.out.println("Check for new registration..!!");
+			conn = .getConnection();
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, user.getName());
+			ps.setString(2, user.getEmail());
+			ps.setString(3, user.getPassword());
+			ps.executeUpdate();
+			ps.close();
+			result = true;
+		} catch (Exception e) {
+			e.printStackTrace();
+			result = false;
+		}
+		
+		
+		return result;
+	}
+
+	
+}

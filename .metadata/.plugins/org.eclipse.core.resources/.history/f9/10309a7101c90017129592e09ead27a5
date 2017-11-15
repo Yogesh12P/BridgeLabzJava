@@ -1,0 +1,18 @@
+package com.BridgeLabz.Controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class WelcomeRegistration 
+{
+	@RequestMapping("/registerPage")
+	public ModelAndView goToRegistration()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("registerSuccess", "User register succefully");
+		mv.setViewName("registration.jsp");
+		return mv;
+	}
+}

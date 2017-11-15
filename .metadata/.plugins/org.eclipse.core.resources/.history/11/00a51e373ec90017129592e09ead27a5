@@ -1,0 +1,9 @@
+<html>
+<body>
+<h2>Hello Please Login here..!</h2>
+	
+	<form:form id="loginForm" action="loginProcess" method="post">
+	
+	</form:form>
+</body>
+</html>

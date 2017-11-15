@@ -1,0 +1,10 @@
+package com.BridgeLabz.service;
+
+public class UserValidation 
+{
+	String validEmail(String email)
+	{
+		return "valid email"
+	}
+	
+}

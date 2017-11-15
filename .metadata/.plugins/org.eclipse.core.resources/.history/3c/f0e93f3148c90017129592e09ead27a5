@@ -1,0 +1,6 @@
+package com.BridgeLabz.validator;
+
+public class UserValidator 
+{
+
+}
