@@ -16,6 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.BridgeLabz.Dao.UserDao;
 import com.BridgeLabz.Dao.UserImplDao;
 import com.BridgeLabz.model.User;
+import com.BridgeLabz.validator.SendingEmail;
 import com.BridgeLabz.validator.UserValidator;
 
 @Controller
@@ -64,6 +65,8 @@ public class RegistrationController
 	
 	@Autowired
 	private UserValidator uservalidator;
+	@Autowired
+	private SendingEmail sendemail;
 	@RequestMapping(value="/newRegister",method=RequestMethod.POST )
 	public ModelAndView registration(@ModelAttribute("user") User user,BindingResult bindingResult)
 	{
@@ -82,8 +85,10 @@ public class RegistrationController
 		
 		System.out.println("No error..!!");
 		userDao.newRegistration(user);
-		mav = new ModelAndView("login");
+		String status = sendemail.sendEmail(user);
 		
+		mav = new ModelAndView("showMessage.jsp");
+		mav.addObject("showMessage", status);
 		return mav;
 		
 	}

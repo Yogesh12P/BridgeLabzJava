@@ -1,0 +1,21 @@
+package com.BridgeLabz.validator;
+
+import javax.mail.internet.MimeMessage;
+
+import org.springframework.mail.MailSender;
+import org.springframework.mail.javamail.JavaMailSender;
+
+public class SendingEmail 
+{
+	private JavaMailSender mailsender;
+	 String sendEmail()
+	 {
+		 String status = null;
+		 try {
+
+			 MimeMessage message = mailsender.createMimeMessage();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	 }
+}

@@ -12,6 +12,20 @@ http://www.springframework.org/schema/mvc
  ">
  <ctx:annotation-config></ctx:annotation-config>
  <ctx:component-scan base-package="com.BridgeLabz.Controller"></ctx:component-scan>
+ <ctx:property-placeholder location="classpath:email.properties"/>
+ 
+  <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+        <property name="host" value="${email.host}" />
+        <property name="port" value="${email.port}" />
+        <property name="username" value="${email.username}" />
+        <property name="password" value="${email.password}" />
+        <property name="javaMailProperties">
+            <props>
+                <prop key="mail.smtp.auth">${email.auth}</prop>
+                <prop key="mail.smtp.starttls.enable">${email.starttls}</prop>
+            </props>
+        </property>
+   </bean>
  
   <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
         <property name="basenames">
@@ -24,4 +38,5 @@ http://www.springframework.org/schema/mvc
  <bean id="userValidator" class="com.BridgeLabz.validator.UserValidator"></bean>
  <bean id="services" class="com.BridgeLabz.Service.UserService"></bean>
  <bean id="userDao" class="com.BridgeLabz.Dao.UserImplDao"></bean>
+ <bean id="sendEmail" class="com.BridgeLabz.validator.SendingEmail"></bean>
  </beans> 

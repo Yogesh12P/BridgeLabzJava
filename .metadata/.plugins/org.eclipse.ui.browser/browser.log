@@ -804,3 +804,22 @@ Nov 15, 2017 10:41:48.65 runSafeWithoutClone@resource://gre/modules/ExtensionCom
 Nov 15, 2017 10:41:48.65 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:349:48
 Nov 15, 2017 10:41:48.65 ]]
 Nov 15, 2017 10:41:51.49 console.log: init received
+Nov 15, 2017 18:18:03.45 1510750083452	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Nov 15, 2017 18:18:03.69 1510750083699	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Nov 15, 2017 18:18:03.71 1510750083710	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Nov 15, 2017 18:18:03.72 1510750083728	addons.update-checker	WARN	Update manifest for clicktoplay-rollout@mozilla.org did not contain an updates property
+Nov 15, 2017 18:18:03.82 1510750083822	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Nov 15, 2017 18:18:03.95 1510750083955	addons.update-checker	WARN	Update manifest for formautofill@mozilla.org did not contain an updates property
+Nov 15, 2017 18:18:03.96 1510750083966	addons.update-checker	WARN	Update manifest for activity-stream@mozilla.org did not contain an updates property
+Nov 15, 2017 18:18:03.97 1510750083976	addons.update-checker	WARN	Update manifest for onboarding@mozilla.org did not contain an updates property
+Nov 15, 2017 18:18:03.98 1510750083987	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Nov 15, 2017 18:18:04.23 1510750084234	addons.update-checker	WARN	Update manifest for sbv4-gradual-rollout@mozilla.com did not contain an updates property
+Nov 15, 2017 18:18:04.26 1510750084262	addons.update-checker	WARN	Update manifest for followonsearch@mozilla.com did not contain an updates property
+Nov 15, 2017 18:18:04.30 1510750084305	addons.update-checker	WARN	Update manifest for taarexp@mozilla.com did not contain an updates property
+Nov 15, 2017 18:18:04.46 1510750084469	addons.update-checker	WARN	Update manifest for timecop@mozilla.com did not contain an updates property
+Nov 15, 2017 18:18:06.85 1510750086853	addons.xpi	ERROR	Failed to clean updated system add-ons directories.
+Nov 15, 2017 18:18:08.18 1510750088185	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+Nov 15, 2017 18:18:08.30 console.log: Just installed jid1-NIfFY2CA8fy1tg@jetpack from other
+Nov 15, 2017 18:18:08.40 1510750088403	addons.webextension.jid1-NIfFY2CA8fy1tg@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Nov 15, 2017 18:50:11.37 console.log: shutdown APP_SHUTDOWN
+Nov 15, 2017 18:50:11.47 Promise rejected after context unloaded: Message manager disconnected
